@@ -1,0 +1,106 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    color:white;
+    background-color: #03131b;
+}
+.header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding:20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index:100;
+    background: #49243E;
+}
+
+.navbar a{
+    display: inline-block;
+    font-size: 25 px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+.navbar a:hover{
+    color: #DBAFA0;
+    transform: scale(1.5); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+.home{
+    position:relative;
+    width:100%;
+    justify-content: space-between;
+    height:100vh;
+    background: url(./assets/bg11.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    align-items: center;
+    padding: 70px 10% 0;
+}
+.home-content{
+    color:white;
+}
+.home-content h3{
+    font-size: 32px;
+    font-weight: 700;
+}
+.home-content h1{
+    font-size: 56px;
+    font-weight:700;
+    margin:-3px 0;
+}
+.home-content p{
+    font-size: 20px;
+}
+.home-sci a{
+    display:inline-flex;
+    justify-content:center ;
+    align-items: center;
+    width:40px;
+    height:40px;
+    background: transparent;
+    border: 2px solid #704264;
+    border-radius: 50% ;
+    font-size: 20px;
+    color: #704264;
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+.home-sci a:hover{
+    background: white;
+    color:#ee0baa;
+    box-shadow: 0 0 20px white;
+    transform: scale(1.2); 
+        filter: brightness(150%);
+}
+.btn-box{
+    display: inline-block;
+    padding:12px 28px;
+    background: #6e355d;
+    border-radius: 40px;
+    font-size: 16px;
+color: #7e5672;
+letter-spacing: 1px;
+text-decoration: none;
+font-weight: 600;
+}
+.btn-box:hover{
+    box-shadow: 0 0 5px #ee0baa,
+    0 0 25px #ee0baa, 0 0 50px #ee0baa,
+    0 0 100px #ee0baa, 0 0 200px #ee0baa;
+
+}

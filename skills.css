@@ -1,0 +1,158 @@
+
+*
+{
+    margin:0;
+    padding:0;
+    list-style:none;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+.header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding:20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index:100;
+    background: #49243E;
+}
+
+.navbar a{
+    display: inline-block;
+    font-size: 25 px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+.navbar a:hover{
+    color: #DBAFA0;
+    transform: scale(1.5); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+body{
+    background-color: #32012f;
+}
+h1{
+    text-align: center;
+}
+h3{
+    color:white;
+    margin:5px;
+}
+.skill{
+    height: 50%;
+    width:50%;
+    margin:60px auto;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 14px 28px rgba(66, 1, 64, 0.973), 0 10px 10px rgba(54, 1, 46, 0.22);
+    margin-top: 150px;
+}
+.skill li{
+    margin: 20px 0;
+    padding: 10px;
+    padding-left: 150px;
+}
+.bar{
+    align-content: center;
+    background: #353b48;
+    display: block;
+    height: 20px;
+    width:300px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 10px;
+    overflow:hidden;
+    box-shadow: 0 1px 3px rgba(79, 3, 103, 0.12), 0 1px 2px rgba(21, 4, 120, 0.966);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.bar:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.bar span{
+    height:20px;
+    float:left;
+    background: linear-gradient(135deg,rgba(236,0,140,1)0%,rgba(252,103,103,1)100%);
+}
+.html{
+    width:85%;
+    animation: html 3s;
+}
+.css{
+    width:80%;
+    animation: css 3s;
+}
+.python{
+    width:85%;
+    animation: python 3s;
+}
+.java{
+    width:80%;
+    animation: java 3s;
+}
+.sql{
+    width:85%;
+    animation: sql 3s;
+}
+@keyframes html{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:85%;
+    }
+}
+@keyframes css{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:80%;
+    }
+}
+@keyframes python{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:85%;
+    }
+}
+@keyframes java{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:80%;
+    }
+}
+@keyframes sql{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:85%;
+    }
+}
+.ps h2{
+    color:white;
+    margin:30px;}
+ .pics{
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+   margin-bottom: 100px; 
+ }   
+
+.ps img{
+    padding:20px;
+    height:350px;
+    width: 350px;
+    margin: 20px;
+}
